@@ -29,7 +29,7 @@ st.caption("Scientific Reasoning and Explanation powered by a fine-tuned Qwen2.5
 
 st.info(
     "Enter a scientific question to generate an explanation. "
-    "Generated answers may contain errors and should be independently verified."
+    "Generated answers may contain errors and should be verified From the Sources Availabe if the concept is New."
 )
 
 question = st.text_area(
